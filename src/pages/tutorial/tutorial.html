@@ -1,0 +1,18 @@
+<ion-content no-bounce>
+  <ion-slides [options]="{pager: true}" (ionWillChange)="onSlideChangeStart($event)">
+    <ion-slide *ngFor="let slide of slides">
+      <img [src]="slide.image" class="slide-image" />
+      <div class="slide-content">
+        <h4 class="slide-title" [innerHTML]="slide.title"></h4>
+        <p [innerHTML]="slide.description"></p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+  <div text-center class="get-started-button">
+    <button ion-button 
+            color="danger" 
+            round 
+            padding
+            (click)="showMessage()">Get Started</button>
+  </div>
+</ion-content>
