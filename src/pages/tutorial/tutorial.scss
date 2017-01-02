@@ -41,11 +41,16 @@ page-tutorial {
     padding-top: 30px;
     button {
       width: 180px;
+      height: 3.1em;
     }
   }
 
   .swiper-container-horizontal > .swiper-pagination {
     bottom: 160px;
+  }
+
+  .swiper-pagination-bullet {
+    background: #ee7272;
   }
 
   .slide-content {
