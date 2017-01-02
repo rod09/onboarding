@@ -5,4 +5,4 @@ Second dribbble redesign from here:
 
 # How the app is now:
 
-![alt text](https://github.com/rod09/onboarding/blob/master/src/assets/img/appsauce.png "Onboarding Screen")
+![alt text](https://github.com/rod09/onboarding/blob/master/src/assets/img/showcase.png "Onboarding Screen")

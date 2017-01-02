@@ -50,7 +50,11 @@ page-tutorial {
   }
 
   .swiper-pagination-bullet {
-    background: #ee7272;
+    background: #494949;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #c50153;
   }
 
   .slide-content {
